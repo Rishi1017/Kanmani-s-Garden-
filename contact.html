@@ -1,54 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Kanmani's Garden</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+<html>
+<head><link rel="stylesheet" href="style.css"></head>
 <body>
-
-    <header>
-        <h1>Contact Me</h1>
-        <nav>
-            <a href="index.html">Home</a> | 
-            <a href="about.html">About</a> | 
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
-
-    <main style="padding: 20px; max-width: 600px; margin: auto;">
-        <h2>Get In Touch</h2>
-        <p>Please fill out the form below to send me a message:</p>
-
-        <form style="display: flex; flex-direction: column; gap: 10px; background: #f4f4f4; padding: 20px; border-radius: 8px;">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" placeholder="Your Name" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="Your Email" required>
-
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" placeholder="How can I help you?" required></textarea>
-
-            <button type="submit" style="background-color: #2e7d32; color: white; border: none; padding: 10px; cursor: pointer; border-radius: 5px;">
-                Send Message
-            </button>
+    <div class="glass-container">
+        <nav>...</nav>
+        <h1>Contact Kanmani</h1>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email Address" required>
+            <textarea rows="5" placeholder="Write your message here..." required></textarea>
+            <button type="submit" style="padding: 15px 30px; background: #2d5a27; color: white; border: none; border-radius: 8px; cursor: pointer;">Send Message</button>
         </form>
-
-        <hr style="margin: 30px 0;">
-
-        <div style="text-align: center;">
-            <h3>Direct Contact</h3>
-            <p><strong>Name:</strong> Kanmani</p>
-            <p><strong>Gmail:</strong> <a href="mailto:kanmani.student@goon.edu.my">kanmani.student@goon.edu.my</a></p>
-        </div>
-    </main>
-
-    <footer style="text-align: center; margin-top: 50px; padding-bottom: 20px;">
-        <p>&copy; 2026 Kanmani's Garden</p>
-    </footer>
-
+    </div>
 </body>
 </html>
-
