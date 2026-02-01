@@ -1,15 +1,26 @@
 <!DOCTYPE html>
-<html>
-<head><link rel="stylesheet" href="style.css"></head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Kanmani's Garden</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
     <div class="glass-container">
-        <nav>...</nav>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
         <h1>Contact Kanmani</h1>
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email Address" required>
-            <textarea rows="5" placeholder="Write your message here..." required></textarea>
-            <button type="submit" style="padding: 15px 30px; background: #2d5a27; color: white; border: none; border-radius: 8px; cursor: pointer;">Send Message</button>
+        <form style="display: flex; flex-direction: column; gap: 15px; max-width: 400px; margin: 0 auto;">
+            <input type="text" placeholder="Your Name" style="padding: 10px; border-radius: 10px; border: 1px solid #ccc;">
+            <input type="email" placeholder="Your Email Address" style="padding: 10px; border-radius: 10px; border: 1px solid #ccc;">
+            <textarea placeholder="Write your message here..." rows="4" style="padding: 10px; border-radius: 10px; border: 1px solid #ccc;"></textarea>
+            <button type="submit" style="background: #2d5a27; color: white; padding: 12px; border: none; border-radius: 10px; cursor: pointer;">Send Message</button>
         </form>
     </div>
 </body>
