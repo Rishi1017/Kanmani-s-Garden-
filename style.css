@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     /* This sets your uploaded image as the full-page background */
-    background-image: url('1000013872.jpg'); 
+    background-image: url('1000013872.jpeg'); 
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Keeps image still while scrolling */
@@ -15,7 +15,7 @@ body {
     align-items: center;
 }
 
-/* The Floating Glass Theme (cite: 1000013854.jpg) */
+/* The Floating Glass Theme (cite: 1000013854.jpeg) */
 .glass-container {
     background: rgba(255, 255, 255, 0.85); /* White with 85% transparency */
     margin: 50px auto;
