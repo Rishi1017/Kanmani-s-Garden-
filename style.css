@@ -1,27 +1,59 @@
-
 /* style.css */
 body {
     margin: 0;
     padding: 0;
-    /* This link adds the garden image to your background */
-    background-image: url('https://images.unsplash.com/photo-1558905734-b833efda65f5?q=80&w=1920&auto=format&fit=crop');
+    /* This sets your uploaded image as the full-page background */
+    background-image: url('1000013872.jpg'); 
     background-size: cover;
     background-position: center;
-    background-attachment: fixed; /* Keeps image still when you scroll */
+    background-attachment: fixed; /* Keeps image still while scrolling */
     background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     min-height: 100vh;
-    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-/* The White "Glass" Box in the center */
+/* The Floating Glass Theme (cite: 1000013854.jpg) */
 .glass-container {
-    width: 90%;
-    max-width: 800px;
-    margin: 60px auto;
-    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    background: rgba(255, 255, 255, 0.85); /* White with 85% transparency */
+    margin: 50px auto;
     padding: 40px;
-    border-radius: 25px; /* Rounded corners like your example */
-    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    width: 85%;
+    max-width: 800px;
+    border-radius: 30px; /* Highly rounded corners like the beauty site */
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2); /* Deep shadow for 'floating' feel */
+    backdrop-filter: blur(8px); /* Blurs the background behind the box */
+    border: 1px solid rgba(255, 255, 255, 0.3);
     text-align: center;
 }
+
+/* Navigation Menu Styling */
+nav {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2d5a27;
+    font-weight: bold;
+    margin: 0 10px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+
+h1 {
+    color: #1b5e20;
+    font-size: 2.2rem;
+    margin-top: 10px;
+}
+
+p {
+    color: #444;
+    line-height: 1.6;
+}
+
 
